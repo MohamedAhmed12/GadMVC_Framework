@@ -5,13 +5,11 @@ Let me introduce the new MVC Framework based on PHP, it will assist you in build
 
 The components of the app:
 
-app  
-config
-a.	config.php  where you can define  : 	
-		 
--	the DataBase Parameters (like: db-host, db-name, db-user, db-pass)
-
-		      - your app ( APP Root, App URL, Site Name
+App Folder
+	config
+		a. config.php  where you can define  : 	
+		 	- the DataBase Parameters (like: db-host, db-name, db-user, db-pass)
+		  	- your app ( APP Root, App URL, Site Name
 models
 views    
 Add views for any feature you add to you app like views for posts  and it already have
@@ -22,7 +20,7 @@ inc
 - index.php
 -	about.php
 4.	controllers  
-extends from main class controller which has view and model methods which define the connection and relation between controllers and each of  ( Views – Models)
+extends from main class controller which has view and model methods which define the connection and relation between controllers and each of  ( Views â€“ Models)
 5.	helpers
 		 let you add any helpers (like: redirect function, session mechanism)
 
@@ -40,10 +38,10 @@ b.	controller
 c.	database
 
  PDO Database Class Used For 
-·	Connecting to Database
-·	 Create Prepared Statements
-·	Bind Values
-·	Return rows & Results
+Â·	Connecting to Database
+Â·	 Create Prepared Statements
+Â·	Bind Values
+Â·	Return rows & Results
 
 Public
 1.	Index.php
