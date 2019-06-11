@@ -7,10 +7,10 @@ The components of the app:
 
 AppFolder:  
 
-1.config        
-a. config.php  where you can define  : 
-- the DataBase Parameters (like: db-host, db-name, db-user, db-pass(
-- your app ( APP Root, App URL, Site Name(
+   1.config        
+     a. config.php  where you can define  : 
+       - the DataBase Parameters (like: db-host, db-name, db-user, db-pass(
+       - your app ( APP Root, App URL, Site Name(
 
 2.	models
 3.	views    
