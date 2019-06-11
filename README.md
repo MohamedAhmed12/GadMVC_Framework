@@ -8,7 +8,7 @@ The components of the app:
 <h2>App Folder</h2>   
 <ol>
     <li>config 
-        <ol type="a">
+        <ol type="I">
             <li>config.php => where you can define :</li>
             <ul>
                 <li>the DataBase Parameters (like: db-host, db-name, db-user, db-pass)</li>
