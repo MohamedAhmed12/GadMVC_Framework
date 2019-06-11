@@ -16,8 +16,8 @@ a.	config.php  where you can define  :
 2.	models
 3.	views    
 Add views for any feature you add to you app like views for posts  and it already have
- 
-a.	inc 
+
+a. inc 
 -	footer.php
 - header.php
 
