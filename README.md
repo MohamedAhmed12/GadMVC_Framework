@@ -6,10 +6,14 @@ Let me introduce the new MVC Framework based on PHP, it will assist you in build
 The components of the app:
 
 App Folder
+	
 	config
+	
 		a. config.php  where you can define  : 	
-		 	- the DataBase Parameters (like: db-host, db-name, db-user, db-pass)
-		  	- your app ( APP Root, App URL, Site Name
+		
+			- the DataBase Parameters (like: db-host, db-name, db-user, db-pass)
+		  	
+			- your app ( APP Root, App URL, Site Name
 models
 views    
 Add views for any feature you add to you app like views for posts  and it already have
