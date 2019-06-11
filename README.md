@@ -7,9 +7,12 @@ The components of the app:
 
 app  
 1.	config
-a.	config.php  where you can define  : 			 
-·	the DataBase Parameters (like: db-host, db-name, db-user, db-pass(
-·	your app ( APP Root, App URL, Site Name(
+
+a.	config.php  where you can define  : 	
+		 
+-	the DataBase Parameters (like: db-host, db-name, db-user, db-pass(
+
+- your app ( APP Root, App URL, Site Name(
 2.	models
 3.	views    
 Add views for any feature you add to you app like views for posts  and it already have 
