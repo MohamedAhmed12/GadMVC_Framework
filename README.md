@@ -6,31 +6,31 @@ Let me introduce the new MVC Framework based on PHP, it will assist you in build
 The components of the app:
 
 app  
-a.	config
-1.	config.php  where you can define  : 			 
+1.	config
+a.	config.php  where you can define  : 			 
 ·	the DataBase Parameters (like: db-host, db-name, db-user, db-pass(
 ·	your app ( APP Root, App URL, Site Name(
-b.	models
-c.	views    
+2.	models
+3.	views    
 Add views for any feature you add to you app like views for posts  and it already have 
-1.	inc 
+a.	inc 
 ·	footer.php
 ·	header.php
-2.	pages
+b.	pages
 ·	index.php
 ·	about.php
-d.	controllers  
+4.	controllers  
 extends from main class controller which has view and model methods which define the connection and relation between controllers and each of  ( Views – Models)
-e.	helpers 		
+5.	helpers 		
 1.	 let you add any helpers (like: redirect function, session mechanism)
 
-f.	Liberaries
+6.	Liberaries
 Main libraries that app will need to launch and start working	
-1.	core
+a.	core
 App Core Class which create URL & Loads Core Controller
-2.	controller  
+b.	controller  
 The base Controller which Load The Models & Views
-3.	database
+c.	database
  PDO Database Class Used For 
 ·	Connecting to Database
 ·	 Create Prepared Statements
